@@ -107,7 +107,7 @@ function checkAppleCollision(){
         tailLength++;
         score++;
         sound.play();
-        speed++;
+        speed=speed+.1;
     }
 }
 function drawSnake(){
